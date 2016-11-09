@@ -1,0 +1,26 @@
+@col:black;
+@ejem:0;
+.mixin(@ejem)
+{
+	background-color:@ejem;
+}
+#body
+{
+	& when(luma(@col)>=50%)
+	{
+		color:black;
+	}
+	& when(luma(@col)<50%)
+	{
+		color:white;
+	}
+	.mixin(@col);
+}
+#div
+{
+	.mixin(average(average(@col,gray),gray));
+}
+#diva
+{
+	.mixin(average(average(@col,black),black));
+}
