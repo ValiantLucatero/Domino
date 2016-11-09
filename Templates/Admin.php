@@ -1,16 +1,16 @@
-<?php
+
 	echo '<!DOCTYPE html>
 				<html>
 					<head>
 						<meta charset="UTF-8">
 						<title>Administración</title>
-						<link rel="stylesheet" type="text/css" href="../Styles/BS/bootstrap.css"/>
+						<link rel="stylesheet" type="text/css" href="../Frameworks/BS/bootstrap.css"/>
 						<link rel="stylesheet/less" type="text/css" href="../Styles/Estilo.less"/>
 					</head>
 					<body id="body">
-							<script src="../Styles/jquery-2.2.3.js"></script>
-							<script src="../Styles/BS/bootstrap.js"></script>
-							<script src="../Styles/less.min.js"></script>
+							<script src="../Programs/jquery-2.2.3.js"></script>
+							<script src="../Frameworks/BS/bootstrap.js"></script>
+							<script src="../Programs/less.min.js"></script>
 							<div id="div" class="container">
 								<div class="row">
 									<header>
@@ -26,7 +26,7 @@
 							  	<div class="col-xs-8">
 										<img src="../Resources/Horario.jpg"/>
 									</div>
-									<div id="diva" class="col-xs-2 avisos">Avisos</div>
+									<div id="diva" class="col-xs-2">Avisos esperando ajx.</div>
 								</div>
 									<footer>
 									</footer>
@@ -47,4 +47,4 @@
 							</script>
 					</body>
 				</html>'
-?>
+<?php?>
