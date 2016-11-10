@@ -29,11 +29,11 @@
               						</div>
 			                     		<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse" id="nav_collapse">
 				        			<ul id="nav-main" class="nav navbar-nav navbar-rigth">
-				          				  <li><a href="Admin.php"><em>Inicio</em></a></li>
+				          				  <li><a href="Inicio.html"><em>Inicio</em></a></li>
 									  <li><a href="Multimedia.php"><em>Multimedia</em></a></li>
 									  <li><a href="contacto.html"><em>Fechas de Entrega</em></a></li>
 									  <li><a href="contacto.html"><em>Avisos</em></a></li>
-									  <li><input type="color" class="form-control" id="col"><em>Cambio</em></li>
+									  <li><a href="colores.html" ><em>Cambio</em></a></li>
 				       				</ul>
                       					</div>
                    				 </div>
