@@ -59,6 +59,11 @@
                     </ul>
                 </li>
                 <li><a href="contacto.html"><em>Contacto</em></a></li>
+                <li>
+    							<input type="color" id="val"/>
+    							<button type="button" id="but">Cambiar
+    							</button>
+    						</li>
               </ul>
             </div>
           </div>
@@ -158,6 +163,14 @@
 
   </script>
   <script>
+  var col=document.getElementById("but");
+    col.addEventListener("click",function(){
+      var color=document.getElementById("val").value;
+      less.modifyVars({
+        "@colcon":color
+      });
+      less.refreshStyles();
+    });
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     })
