@@ -34,7 +34,7 @@
           </div>
           <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse" id="nav_collapse" >
             <ul id="nav-main" class="nav navbar-nav navbar-rigth">
-              <li class="active"><a href="inicio.html"><em>Inicio</em></a></li>
+              <li class="active"><a href="../Templates/inicio.html"><em>Inicio</em></a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                   Alumnos
@@ -93,7 +93,7 @@ echo'
 				<div class="form-group">
 					<div class="col-xs col-sm-10 col-sm-offset-2">
 						<input class="btn btn-success btn-block" type="submit" value="Entrar" id="entrar"/>
-						<a class="btn btn-block btn-info" href="registro.html">Registrarse</a>
+						<a class="btn btn-block btn-info" href="iniciar.php">Registrarse</a>
 					</div>
 				</div>
 			</form>';

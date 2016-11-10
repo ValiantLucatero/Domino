@@ -38,7 +38,7 @@ echo'<header id="main_header">
         </div>
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse" id="nav_collapse" >
           <ul id="nav-main" class="nav navbar-nav navbar-rigth">
-            <li class="active"><a href="inicio.html"><em>Inicio</em></a></li>
+            <li class="active"><a href="../Templates/inicio.html"><em>Inicio</em></a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Alumnos
