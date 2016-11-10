@@ -5,20 +5,49 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet"/>
-		<link rel="stylesheet/less" type="text/css" href="dise.less"/>		
-		<script src="less.min.js" type="text/javascript"></script>
+		<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet/less" type="text/css" href="../Styles/dise.less"/>	
+            	<script src="../Frameworks/BS/bootstrap.js"></script>
+            	<script src="../Programs/less.min.js"></script>
 	</head>
 	<body>
-		<header>
-		</header>
+		<div id="div" class="container">
+             		<div class="row">
+                		<header id="main_header">
+                			<div class="navbar navbar-default navbar-fat navbar-clean">
+                    				<div class="container-fluid">
+                      					<div class="navbar-header">
+                        					<button type="button" class="navbar-toggle" data-toggle="collapse"
+                          					data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Desplegar navegación</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+                        					</button>
+                       						<img class="responsive" width="8%" alt="Brand" src="../Resources/logo.png">
+                       						<img class="responsive" width="8%" alt="Brand" src="../Resources/nombre.png">
+              						</div>
+			                     		<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse" id="nav_collapse">
+				        			<ul id="nav-main" class="nav navbar-nav navbar-rigth">
+				          				  <li><a href="Inicio.html"><em>Inicio</em></a></li>
+									  <li><a href="Multimedia.php"><em>Multimedia</em></a></li>
+									  <li><a href="contacto.html"><em>Fechas de Entrega</em></a></li>
+									  <li><a href="contacto.html"><em>Avisos</em></a></li>
+									  <li><a href="colores.html" ><em>Cambio</em></a></li>
+				       				</ul>
+                      					</div>
+                   				 </div>
+                  			</div>
+               			 </header>
+              		</div>
+		</div>
 		<section>
 			<div id="prim" class="container">
 				<div id="prim" class=" jumbotron">
 					<h1 class="text-center">Dibujo Constructivo</h1><br/>
 					<div class="row">
 						<div class="col-xs-8 col-md-push-1">
-							<img src="img/uno.jpg" class="img-rounded" width="500px"/>
+							<img src="../img/uno.jpg" class="img-rounded" width="500px"/>
 						</div>
 						<div class="col-xs-4">
 							<blockquote class="text-justify">
@@ -91,7 +120,7 @@
 					</section><br/>
 					<section id="Uni">
 						<div class="row">
-							<div class="col-md-7 col-offset-3 text-center">
+							<div class="col-md-8 col-md-offset-2 text-center">
 								<div class="text-justify dos">
 									<br/><div class="panel panel-default miu">
 										<div class="panel-body">
@@ -114,6 +143,7 @@
 							    	<li><a data-toggle="tab" href="#du">Unidad II</a></li>
 							    	<li><a data-toggle="tab" href="#tru">Unidad III</a></li>
 							    	<li><a data-toggle="tab" href="#cut">Unidad IV</a></li>
+								<li><a data-toggle="tab" href="#bib">Bibliografía</a></li>
 							 </ul>
 							  <div class="tab-content">
 							    	<div id="un" class="tab-pane fade in active mau text-justify">
@@ -136,6 +166,12 @@
 							    	</div>
 						    		<div id="cut" class="tab-pane fade mau text-justify">
 						      			<h2>Tecnología especializada del dibujo aplicado a la representación de 										proyecciones de edificaciones.</h2>
+						      			<div>
+										COSAS
+									</div>
+						    		</div>	
+								<div id="bib" class="tab-pane fade mau text-justify">
+						      			<h2>Bibliografía Recomendada</h2>
 						      			<div>
 										COSAS
 									</div>
@@ -173,20 +209,56 @@
 			</div>
 		</div>
 
-		<footer>
+
+     
+            <p>
+              
+              
+
+
+
+
+
+		<footer class="text center">
 			<div class="container-fluid">
 				<div  class="panel panel-default">
 					<div id="uno" class="panel-body">
-						<p id="cont" class="text-center">
-							Gracias por leer este blog, fue hecho por alumnos de la Opción técnica de computación y 							alumnos del 601. 
-						</p>
-						<p id="cont2"class="text-center">Arquitecto Gerardo Mendoza Pastor</p>
+        					<a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+			       			<span class="glyphicon glyphicon-chevron-up"></span>
+        					<div class="row">
+          						<div class="col-xm-12 col-sm-12 col-md-12 col-lg-12">
+								<p id="cont" class="text-center">
+									Corina número 3, Colonia Del Carmen, Delegación Coyoacán, C.P. 014100, CDMX 										Universidad Nacional Autónoma de México (UNAM). Hecho en México.Esta página 										puede ser reproducida con fines no lucrativos, siempre y cuando no se 										mutile, se cite la fuente completa y su dirección electrónica. 
+								</p>
+								<div id="c">Créditos</div>
+              							<div class="modal fade" id="creditos" role="dialog">
+                							<div class="modal-content">
+                 							 <button type="button" class="close" data_dimiss="modal">&times;</button>
+                  								<h2 class="modal-title text center"><strong>Créditos</strong></h2>
+										<div class="modal-body">
+                  									<div class="text-justify blockquote">
+                   									 	<h3 class="text center"><strong>Programación, Diseño 													y Desarrollo Web</strong></h3>
+                   										 <p class="text center">Alumnos de la Escuela 													Nacional Preparatoria</p>
+                    										<h3 class="text center"><strong>Líder del 													proyecto </strong></h3>
+                    										<p class="text center"><a href="admin.html" 													data-toggle="tooltip" id="admin" 													title="Administrador">Gerardo Pastor</a></p>
+                   										 <h3 class="text center"><strong>Recursos 													externos</strong></h3>
+                    										<p class="text center">Bootstrap Jquery</p>
+                 									 </div>
+											<div class="modal-footer">
+						              					<button type="button" class="btn btn-default" 													data-dismiss="modal">Cerrar</button>
+                									</div>
+				      						</div>
+            								</div>
+          							</div>
+        						</div>
+     						 </div>
 					</div>
 				</div>
 			</div>
 		</footer>
-		<script src="jquery-2.2.3.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+
+		<script src="../Programs/jquery-2.2.3.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
 		<script>
 			function getCookie(cname) {
 			    var name = cname + "=";
