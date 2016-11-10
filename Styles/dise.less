@@ -1,4 +1,4 @@
-@colcon:#006699;
+@colcon:#3F51B5;
 @colo:average(@colcon,#FFFFFF);
 @cont:contrast(@colo);
 .mixi(){
@@ -9,7 +9,10 @@
 body{
 	background-color:@colcon;
 }
-nav{
+
+nav,#letra{
+  background-color: transparent;
+  z-index:auto;
 	font-family:Courier New;
 	font-size: 20px;
 	font-weight: bold;
@@ -62,12 +65,14 @@ nav{
 	background-color:@colcon;
 	color:@cont;
 }
-
+.label{
+  background-color: #FFC107;
+}
 
 
 #diva
 {
-	
+
 	border-radius:25px;
 }
 #Titulo
@@ -77,4 +82,17 @@ nav{
 #plana
 {
 	margin:auto;
+}
+.affix
+{
+ top: 0;
+ width: 100%;
+ z-index:10;
+}
+footer
+{
+ background-color:#303F9F;
+ color: #ffffff;
+ padding: 64px;
+
 }
