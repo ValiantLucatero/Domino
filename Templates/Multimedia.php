@@ -1,3 +1,4 @@
+<?php
 echo '<!DOCTYPE html>
       <html>
         <head>
@@ -75,4 +76,4 @@ echo '<!DOCTYPE html>
             </script>
         </body>
       </html>'
-<?php?>
+?>

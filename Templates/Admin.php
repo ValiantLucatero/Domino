@@ -1,4 +1,4 @@
-
+<?php
 	echo '<!DOCTYPE html>
 				<html>
 					<head>
@@ -71,4 +71,4 @@
 							</script>
 					</body>
 				</html>'
-<?php?>
+?>
